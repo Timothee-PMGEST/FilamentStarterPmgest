@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pmgest\\FilamentStarterServiceProvider"
+                "TimotheMillot\\FilamentPmgest\\FilamentStarterServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pmgest;
+namespace TimotheMillot\FilamentPmgest;
 
 use Illuminate\Support\ServiceProvider;
 
