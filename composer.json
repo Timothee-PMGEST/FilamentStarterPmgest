@@ -19,6 +19,14 @@
         "laravel/tinker": "^2.10.1"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pmgest\\FilamentStarterServiceProvider"
+            ]
+        }
+    }
 
 }
