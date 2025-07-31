@@ -31,11 +31,9 @@ class FilamentStarterServiceProvider extends ServiceProvider
             __DIR__.'/../src/Filament/Resources' => app_path('Filament/Resources'),
         ], 'filamentstarter-resources');
 
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                \TimotheMillot\FilamentPmgest\Console\InstallFilamentCommand::class,
-            ]);
-        }
+        $this->commands([
+            \TimotheMillot\FilamentPmgest\Console\InstallFilamentCommand::class,
+        ]);
 
 
     }

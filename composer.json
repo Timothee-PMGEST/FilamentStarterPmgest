@@ -1,6 +1,6 @@
 {
     "name": "timothe-millot/filament-pmgest",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "autoload": {
         "psr-4": {
             "TimotheMillot\\FilamentPmgest\\": "src/"
@@ -19,13 +19,6 @@
         "laravel/tinker": "^2.10.1"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": true
 
-    "extra": {
-        "laravel": {
-            "providers": [
-                "TimotheMillot\\FilamentPmgest\\FilamentStarterServiceProvider"
-            ]
-        }
-    }
 }
