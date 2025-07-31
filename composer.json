@@ -1,5 +1,6 @@
 {
     "name": "timothe-millot/filament-pmgest",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "TimotheMillot\\FilamentPmgest\\": "src/"
